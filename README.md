@@ -1,5 +1,7 @@
 # Vectorized Reinforcement Learning for TurtleBot3 Straight-Line Locomotion in Isaac Lab
 
+Author: Alejandro Meza Tudela
+
 [![Isaac Lab Version](https://img.shields.io/badge/Simulation-Isaac%20Lab%20%E2%89%A5v1.0-orange?style=flat-square)](https://github.com/isaac-sim/IsaacLab)
 [![RL Framework](https://img.shields.io/badge/RL%20Library-RSL__RL-blue?style=flat-square)](https://github.com/leggedrobotics/rsl_rl)
 [![Physics Engine](https://img.shields.io/badge/Physics-PhysX%20GPU-crimson?style=flat-square)]()
