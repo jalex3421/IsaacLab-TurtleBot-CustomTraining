@@ -9,6 +9,14 @@ An end-to-end implementation of a massively parallelized, manager-based reinforc
 
 ---
 
+## 📊 Training Preview
+
+![TurtleBot3 Vectorized Training Grid](./demo_images/TurtleBot_training_demo.png)
+
+*Figure: Parallel vectorized instances of TurtleBot3 learning optimal wheel velocity control within Isaac Lab.*
+
+---
+
 ## 📌 Project Architecture & File Mapping
 
 The task is designed as an isolated, modular extension within the Isaac Lab environment manager. It is cleanly partitioned into three configuration scripts:
