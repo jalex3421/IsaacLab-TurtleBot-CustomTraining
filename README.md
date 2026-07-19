@@ -19,6 +19,18 @@ An end-to-end implementation of a massively parallelized, manager-based reinforc
 
 ---
 
+## 🤖 TurtleBot3 Platform Details
+
+The [TurtleBot3 (Burger)](https://github.com/ROBOTIS-GIT/turtlebot3) by ROBOTIS is a widely adopted, open-source, differential-drive mobile robot chassis designed for research and education. 
+
+### Simulation Parameters & Physical Specifications
+* **Kinematics:** Differential drive system controlled via two independent DYNAMIXEL actuators.
+* **Actuation Type:** Velocity-controlled joints mapping continuous network actions directly to wheel angular velocities.
+* **Observation Space:** Base linear/angular velocities, orientation tracking, joint positions/velocities, and previous action history.
+* **Action Space:** Continuous 2D vector representing targeted target wheel velocities ($[v_{left}, v_{right}]$).
+
+---
+
 ## 📌 Project Architecture & File Mapping
 
 The task is designed as an isolated, modular extension within the Isaac Lab environment manager. It is cleanly partitioned into three configuration scripts:
