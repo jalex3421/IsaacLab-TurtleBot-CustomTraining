@@ -18,9 +18,10 @@ An end-to-end implementation of a massively parallelized, manager-based reinforc
 *Figure: Parallel vectorized instances of TurtleBot3 learning optimal wheel velocity control within Isaac Lab. (Default training)*
 
 
-![TurtleBot3 Vectorized Training Grid](./demo_images/TurtleBot_training_LIDAR.png)
+![TurtleBot3 Vectorized Training Grid](./demo_images/TurtleBot_training_demo_LIDAR.png)
 
-*Figure: Parallel vectorized instances of TurtleBot3 learning optimal wheel velocity control within Isaac Lab. (LIDAR use)*
+*Figure: Parallel vectorized instances of TurtleBot3 learning optimal wheel velocity control within Isaac Lab. (LIDAR training)*
+
 ---
 
 ## 🤖 TurtleBot3 Platform Details
