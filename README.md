@@ -21,7 +21,7 @@ The initial baseline environment trains the TurtleBot3 on a flat, obstacle-free 
 
 ---
 
-### Phase 2: LiDAR Sensing & Obstacle Avoidance (New)
+### Phase 2: LiDAR Sensing & Obstacle Avoidance
 The environment scales up to procedurally generated grid terrains featuring static box obstacles per environment cell. The TurtleBot3 is augmented with a 360° single-channel 2D LiDAR raycaster to perceive spatial obstacles directly within its observation space.
 
 ![TurtleBot3 Vectorized Training Grid LIDAR](./demo_images/TurtleBot_training_demo_LIDAR.png)
