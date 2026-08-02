@@ -29,6 +29,15 @@ The environment scales up to procedurally generated grid terrains featuring stat
 
 ---
 
+### Phase 3: Visual Navigation with V-JEPA Fusion
+
+The obstacle terrain is replaced with a procedurally generated maze, unique per environment. The TurtleBot3 gains a forward-facing RGB camera whose frames a lightweight V-JEPA-style encoder
+compresses into a latent vector, fused with velocity and LiDAR in a custom PPO actor-critic, with a LiDAR-based collision penalty added so the agent learns to traverse the maze without colliding.
+
+![TurtleBot3 Vectorized Training Grid VJEPA](./demo_images/TurtleBot_training_demo_VJEPA.png)
+
+---
+
 ## 🤖 TurtleBot3 Platform & MDP Details
 
 The [TurtleBot3 (Burger)](https://github.com/ROBOTIS-GIT/turtlebot3) by ROBOTIS is a widely adopted, open-source, differential-drive mobile robot chassis.
